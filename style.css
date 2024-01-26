@@ -1,0 +1,75 @@
+.Container{
+    width: 100vw;
+    height: 100vh;
+   background-color:  hsl(0, 0%, 8%);
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.child{
+    width:300px;
+    height: auto;
+    background-color:hsl(0, 0%, 12%);
+   padding: 0px  20px;
+   padding-top: 40px;
+   padding-bottom: 10px;
+   border-radius: 8px;
+  
+}
+.child >h3{
+    text-align: center;
+    margin-bottom: 8px; /* Remove the bottom margin of h3 */
+color: hsl(0, 0%, 100%);
+}
+.image{
+    width: 80px;
+    height:80px;
+    margin: 0  auto;
+    display: block;
+    border-radius: 50%;
+
+}
+.child p:first-of-type {
+    /* Your styles for the first <p> element here */
+    color: yellow;
+    margin-top: 0;
+    text-align: center; /* Example: Change the text color to red */
+}
+
+.heading{
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-align: center;
+    color: whitesmoke;
+}
+.skill-section{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.skill-section>div{
+    text-align: center;
+    padding: 8px 0px;
+    width:200px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border:2px ;
+    background-color:  hsla(0, 0%, 20%, 0.8);
+    color:white;
+    
+}
+.skill-section >div:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+/* .skill-section > div:hover {
+    background-color: yellow;
+    cursor: pointer;
+} */
